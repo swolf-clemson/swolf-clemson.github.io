@@ -1,0 +1,96 @@
+{
+  "all_regions": [
+    {
+      "attribute": "Remote",
+      "median": 80000.0,
+      "percent_of_respondents": 45.9
+    },
+    {
+      "attribute": "Hybrid",
+      "median": 63986.0,
+      "percent_of_respondents": 42.2
+    },
+    {
+      "attribute": "In-Person",
+      "median": 37364.5,
+      "percent_of_respondents": 11.9
+    },
+    { "attribute": "Men", "median": 66372.0, "percent_of_respondents": 92.8 },
+    { "attribute": " Women", "median": 65000.0, "percent_of_respondents": 4.5 },
+    { "attribute": "Other", "median": 73000.0, "percent_of_respondents": 2.7 },
+    {
+      "attribute": "Independent Contributors",
+      "median": 63986.0,
+      "percent_of_respondents": 85.3
+    },
+    {
+      "attribute": "People Managers",
+      "median": 75384.0,
+      "percent_of_respondents": 14.7
+    }
+  ],
+  "usa": [
+    {
+      "attribute": "Remote",
+      "median": 147000.0,
+      "percent_of_respondents": 60.7
+    },
+    {
+      "attribute": "Hybrid",
+      "median": 135000.0,
+      "percent_of_respondents": 30.8
+    },
+    {
+      "attribute": "In-Person",
+      "median": 100000.0,
+      "percent_of_respondents": 8.5
+    },
+    { "attribute": "Men", "median": 140000.0, "percent_of_respondents": 90.6 },
+    {
+      "attribute": " Women",
+      "median": 131100.0,
+      "percent_of_respondents": 5.7
+    },
+    { "attribute": "Other", "median": 135000.0, "percent_of_respondents": 3.7 },
+    {
+      "attribute": "Independent Contributors",
+      "median": 135000.0,
+      "percent_of_respondents": 85.0
+    },
+    {
+      "attribute": "People Managers",
+      "median": 150000.0,
+      "percent_of_respondents": 15.0
+    }
+  ],
+  "non_usa": [
+    {
+      "attribute": "Remote",
+      "median": 56568.0,
+      "percent_of_respondents": 41.5
+    },
+    {
+      "attribute": "Hybrid",
+      "median": 56521.0,
+      "percent_of_respondents": 45.6
+    },
+    {
+      "attribute": "In-Person",
+      "median": 29946.0,
+      "percent_of_respondents": 12.9
+    },
+    { "attribute": "Men", "median": 53322.0, "percent_of_respondents": 93.5 },
+    { "attribute": " Women", "median": 45758.5, "percent_of_respondents": 4.1 },
+    { "attribute": "Other", "median": 61056.0, "percent_of_respondents": 2.4 },
+    {
+      "attribute": "Independent Contributors",
+      "median": 50256.0,
+      "percent_of_respondents": 85.4
+    },
+    {
+      "attribute": "People Managers",
+      "median": 60114.0,
+      "percent_of_respondents": 14.6
+    }
+  ]
+}

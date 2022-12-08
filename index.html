@@ -1,1 +1,53 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>THE BEST WEBSITE</title><script defer="defer" src="/static/js/main.2f90569f.js"></script><link href="/static/css/main.1b897dcf.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Developer Visualization</title>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+    <!-- <script src="heatmap.js"></script> -->
+    <script src="https://cdn.rawgit.com/fabid/d3-rectbin/master/rectbin.js"></script>
+  </head>
+  <body>
+    <h1>Developer Visualization</h1>
+    <!-- <button id="betty">Betty</button>
+      <button id="linda">Linda</button> -->
+    <h2 id="title" style="margin-bottom: 0; margin-top: 8px">
+      Select a visualization mode
+    </h2>
+    <button id="overview_button" style="background-color: gray">
+      Overview
+    </button>
+    <button id="detailed_button">Detailed</button>
+
+    <h2 style="margin-bottom: 5px">GLOBAL</h2>
+    <h3 id="title" style="margin-bottom: 0; margin-top: 0">Select a region</h3>
+    <button id="global_button" style="background-color: gray">
+      All Regions
+    </button>
+    <button id="us_button">Non-US</button>
+    <div
+      class="grid-container"
+      style="display: grid; grid-template-columns: auto auto"
+    >
+      <div>
+        <div id="heatmap_global"></div>
+      </div>
+      <div>
+        <div id="aggregated_global"></div>
+      </div>
+      <div>
+        <h2 style="margin-bottom: 5px; margin-top: 0">US ONLY</h2>
+        <div id="heatmap_us"></div>
+      </div>
+      <div>
+        <div id="aggregated_us" style="margin-top: 20px"></div>
+      </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+  </body>
+</html>
